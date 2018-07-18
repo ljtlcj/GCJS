@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical">
+    <include layout="@layout/app_title"/>
+   	<TabWidget
+        android:id="@id/widget_0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tabStripEnabled="false"
+        android:background="#FFFFFF" >
+        <LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:orientation="vertical">
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="15dp"
+			    android:paddingBottom="15dp"
+			    android:text="我负责的"
+			    android:gravity="center"
+			    android:textColor="#333333"
+			    android:textSize="14sp"
+			    android:singleLine="true" />
+		    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/line_select" android:contentDescription="@null" android:scaleType="fitXY" />
+		</LinearLayout>
+        <LinearLayout
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:gravity="center"
+		    android:orientation="vertical">
+			<TextView
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:paddingTop="15dp"
+			    android:paddingBottom="15dp"
+			    android:text="我要执行的"
+			    android:gravity="center"
+			    android:textColor="#333333"
+			    android:textSize="14sp"
+			    android:singleLine="true" />
+		    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@drawable/line_select" android:contentDescription="@null" android:scaleType="fitXY"
+		        android:visibility="invisible" />
+		</LinearLayout>
+    </TabWidget>
+    <android.support.v4.view.ViewPager
+		android:id="@id/widget_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+		android:layout_weight="1"/>
+</LinearLayout>

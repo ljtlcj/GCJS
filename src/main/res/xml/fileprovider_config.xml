@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <external-path name="sdcard" path=""/>
+    <external-files-path name="sdcard_app_pulic" path=""/>
+    <external-cache-path name="sdcard_app_cache" path=""/>
+    <files-path name="app" path=""/>
+    <cache-path name="app_cache" path=""/>
+</resources>

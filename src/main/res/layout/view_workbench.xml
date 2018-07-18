@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/wc_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/workbench_ic_company_announcements" />
+
+    <TextView
+        android:id="@+id/wc_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wc_image"
+        android:layout_centerHorizontal="true"
+        android:text="公司公告"
+        android:textColor="#5D5F6A"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/wc_new_notice"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignRight="@+id/wc_content"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/common_bd_red" />
+</RelativeLayout>

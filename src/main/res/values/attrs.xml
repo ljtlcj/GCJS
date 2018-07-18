@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="FastMenuBar">
+        <attr name="fmb_icon" format="reference" />
+        <attr name="fmb_icon_size" format="dimension" />
+        <attr name="fmb_title" format="string" />
+        <attr name="fmb_message" format="string" />
+        <attr name="fmb_arrow" format="reference" />
+        <attr name="fmb_icon_enable" format="boolean" />
+        <attr name="fmb_arrow_enable" format="boolean" />
+        <attr name="fmb_top_line_enable" format="boolean" />
+        <attr name="fmb_bot_line_enable" format="boolean" />
+        <attr name="fmb_bot_line_margin" format="dimension" />
+        <attr name="fmb_title_color" format="color" />
+        <attr name="fmb_title_size" format="dimension" />
+        <attr name="fmb_message_color" format="color" />
+        <attr name="fmb_message_size" format="dimension" />
+        <attr name="fmb_selected_color" format="color" />
+        <attr name="fmb_animation_type" format="integer">
+            <flag name="fmb_none" value="0" />
+            <flag name="fmb_normal" value="1" />
+            <flag name="fmb_fade" value="2" />
+            <flag name="fmb_jump" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MessageTabButton">
+        <attr name="mtb_title" format="string" />
+        <attr name="mtb_unread" format="string" />
+        <attr name="mtb_selected" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="WorkbenchContent">
+        <attr name="wc_new_notice" format="boolean" />
+        <attr name="wc_image" format="reference" />
+        <attr name="wc_content" format="string" />
+    </declare-styleable>
+    <declare-styleable name="ProjectDataFileView">
+        <attr name="list_name" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ProjectBuilderView">
+        <attr name="builder_name" format="string" />
+        <attr name="builders_visible" format="boolean"/>
+        <attr name="add_visible" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="HomeStatisticsInfoView">
+        <attr name="info_name" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MenuBar">
+        <attr name="menu_name" format="string"/>
+        <attr name="menu_content" format="string"/>
+        <attr name="menu_comment" format="string"/>
+        <attr name="menu_ic_visible" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="MaterialStreamBar">
+        <attr name="stream_date" format="string"/>
+        <attr name="stream_handler" format="string"/>
+        <attr name="stream_belong_project" format="string"/>
+        <attr name="stream_count" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="PlanProgressTabButton">
+        <attr name="Plan_explain" format="string" />
+        <attr name="Plan_number" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ProjectDataDownloadView">
+        <attr name="files_list_name" format="string"/>
+        <attr name="files_list_visible" format="boolean"/>
+    </declare-styleable>
+</resources>

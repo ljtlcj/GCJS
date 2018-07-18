@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uuzo.gcjs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera.flash" />
+    <application
+        android:name="com.uuzo.gcjs.UuzoApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:largeHeap="true">
+        <meta-data android:name="android.max_aspect" android:value="2.5" />
+        <activity android:name=".WelcomeActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan1Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan2Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan3Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan4Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan5Activity" android:configChanges="orientation|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" android:exported="true" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan6Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectManChoice.ProjectMan7Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+
+        <activity android:name=".View.Project.ProjectNewItemActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Project.ProjectNewChoiceActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <!--WelcomeActivity-->
+        <activity android:name=".View.Project.ProjectBigNewActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <!--<activity android:name=".MainActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />-->
+        <activity android:name=".View.Project.ProjectNewActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".LoginActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".RegActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".wxapi.WXEntryActivity" android:configChanges="orientation|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" android:exported="true" />
+        <activity android:name=".StringActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_QD_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".SwitchJob_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_QD_View_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".RW_View_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".RW_Add_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_XM_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_XM_SelectMember_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_XM_AP_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_SelectMember_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_AP_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_FKList_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_SelectMember_More_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_JDJH_View_RW_APZXR_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_Add_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_Add_Upload_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".TYSQ_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".TYSQ_View_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".XM_AQJC_View_XM_Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.uuzo.gcjs.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/fileprovider_config"/>
+        </provider>
+    </application>
+
+</manifest>

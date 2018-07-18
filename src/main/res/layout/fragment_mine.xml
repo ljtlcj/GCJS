@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackGroup"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_common_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="157dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/my_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/mine_ic_photo" />
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/mine_bg_name_tv_shape"
+                    android:gravity="center"
+                    android:text="张三丰"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/company_information"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/mine_ic_company_information"
+                app:fmb_icon_size="45dp"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="公司资料" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/help"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/mine_ic_help"
+                app:fmb_icon_size="45dp"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="帮助" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/cache_clean_up"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                app:fmb_icon="@drawable/mine_ic_cache_clean_up_inset"
+                app:fmb_icon_size="45dp"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="清理缓存" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/feedback"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/mine_ic_feedback"
+                app:fmb_icon_size="45dp"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="意见反馈" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/setting"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/mine_ic_setting_inset"
+                app:fmb_icon_size="45dp"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="设置" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="app_title_left">false</item>
+    <item type="id" name="app_title_center">false</item>
+    <item type="id" name="app_title_right">false</item>
+    <item type="id" name="app_title_right2">false</item>
+    <item type="id" name="main_TabWidget">false</item>
+    <item type="id" name="main_ViewPager">false</item>
+    <item type="id" name="tab_Item_0">false</item>
+    <item type="id" name="tab_Item_1">false</item>
+    <item type="id" name="tab_Item_2">false</item>
+    <item type="id" name="tab_Item_3">false</item>
+    <item type="id" name="tab_Item_4">false</item>
+
+    
+    <item type="id" name="item_widget_0">false</item>
+    <item type="id" name="item_widget_1">false</item>
+    <item type="id" name="item_widget_2">false</item>
+    <item type="id" name="item_widget_3">false</item>
+    <item type="id" name="item_widget_4">false</item>
+    <item type="id" name="item_widget_5">false</item>
+    <item type="id" name="item_widget_6">false</item>
+    <item type="id" name="item_widget_7">false</item>
+    <item type="id" name="item_widget_8">false</item>
+    <item type="id" name="item_widget_9">false</item>
+    <item type="id" name="item_widget_10">false</item>
+    
+    <item type="id" name="widget_0">false</item>
+    <item type="id" name="widget_1">false</item>
+    <item type="id" name="widget_2">false</item>
+    <item type="id" name="widget_3">false</item>
+    <item type="id" name="widget_4">false</item>
+    <item type="id" name="widget_5">false</item>
+    <item type="id" name="widget_6">false</item>
+    <item type="id" name="widget_7">false</item>
+    <item type="id" name="widget_8">false</item>
+    <item type="id" name="widget_9">false</item>
+    <item type="id" name="widget_10">false</item>
+    <item type="id" name="widget_11">false</item>
+    <item type="id" name="widget_12">false</item>
+    <item type="id" name="widget_13">false</item>
+    <item type="id" name="widget_14">false</item>
+    <item type="id" name="widget_15">false</item>
+    <item type="id" name="widget_16">false</item>
+    <item type="id" name="widget_17">false</item>
+    <item type="id" name="widget_18">false</item>
+    <item type="id" name="widget_19">false</item>
+    <item type="id" name="widget_20">false</item>
+    <item type="id" name="widget_21">false</item>
+    <item type="id" name="widget_22">false</item>
+    <item type="id" name="widget_23">false</item>
+    <item type="id" name="widget_24">false</item>
+    <item type="id" name="widget_25">false</item>
+    <item type="id" name="widget_26">false</item>
+    <item type="id" name="widget_27">false</item>
+    <item type="id" name="widget_28">false</item>
+    <item type="id" name="widget_29">false</item>
+    <item type="id" name="widget_30">false</item>
+    <item type="id" name="widget_31">false</item>
+    <item type="id" name="widget_32">false</item>
+    <item type="id" name="widget_33">false</item>
+    <item type="id" name="widget_34">false</item>
+    <item type="id" name="widget_35">false</item>
+    <item type="id" name="widget_36">false</item>
+    <item type="id" name="widget_37">false</item>
+    <item type="id" name="widget_38">false</item>
+    <item type="id" name="widget_39">false</item>
+    <item type="id" name="widget_40">false</item>
+    <item type="id" name="widget_41">false</item>
+    <item type="id" name="widget_42">false</item>
+    <item type="id" name="widget_43">false</item>
+    <item type="id" name="widget_44">false</item>
+    <item type="id" name="widget_45">false</item>
+    <item type="id" name="widget_46">false</item>
+    <item type="id" name="widget_47">false</item>
+    <item type="id" name="widget_48">false</item>
+    <item type="id" name="widget_49">false</item>
+    <item type="id" name="widget_50">false</item>
+    <item type="id" name="widget_51">false</item>
+    <item type="id" name="widget_52">false</item>
+    <item type="id" name="widget_53">false</item>
+    <item type="id" name="widget_54">false</item>
+    <item type="id" name="widget_55">false</item>
+    <item type="id" name="widget_56">false</item>
+    <item type="id" name="widget_57">false</item>
+    <item type="id" name="widget_58">false</item>
+    <item type="id" name="widget_59">false</item>
+    
+    <!-- 扫描条形码，二维码 -->
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+
+    <dimen name="text_margin">2dp</dimen>
+    <dimen name="button_margin">8dp</dimen>
+    <dimen name="activity_margin">12dp</dimen>
+</resources>

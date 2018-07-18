@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackGroup"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_common_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:background="@drawable/project_picture" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/project_new"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/project_ic_new_project"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="新建项目" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/project_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/project_ic_update_project"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="更新项目" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/project_file"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/project_ic_file"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="项目归档(待开放)" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/project_delete_file"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/project_ic_delect_file"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="项目销档(待开放)" />
+
+            <com.uuzo.gcjs.Customview.FastMenuBar
+                android:id="@+id/project_sum"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                app:fmb_icon="@drawable/project_ic_sum"
+                app:fmb_selected_color="@color/colorWhite"
+                app:fmb_title="项目汇总" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

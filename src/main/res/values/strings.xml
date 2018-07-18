@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">工程结算平台</string>
+    <string name="Cancel">取消</string>
+    <string name="OK">确定</string>
+    <string name="Tip">提示</string>
+    <string name="NetErr">网络忙，请稍候再试</string>
+</resources>

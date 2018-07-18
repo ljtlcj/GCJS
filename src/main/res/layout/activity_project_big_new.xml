@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackGroup"
+    android:orientation="vertical"
+    tools:context=".View.Project.ProjectNewActivity">
+
+    <include layout="@layout/include_common_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="24dp"
+            android:id="@+id/project_summary"
+            android:background="@drawable/project_title_white_shape"
+            android:gravity="center"
+            android:text="系统内工程" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="24dp"
+            android:id="@+id/project_data"
+            android:background="@drawable/project_title_white_shape"
+            android:gravity="center"
+            android:text="业扩工程" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="24dp"
+            android:id="@+id/project_participant"
+            android:background="@drawable/project_title_white_shape"
+            android:gravity="center"
+            android:text="其他" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/vp_project_new"
+        android:layout_height="match_parent"/>
+</LinearLayout>
