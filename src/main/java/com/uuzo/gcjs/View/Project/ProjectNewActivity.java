@@ -166,6 +166,7 @@ public class ProjectNewActivity extends BaseActivity {
         ProjectNewController.lixiang(params, parts, new InterfaceManger.OnRequestListener() {
             @Override
             public void onSuccess(Object success) {
+
                 Toast.makeText(ProjectNewActivity.this, success.toString(), Toast.LENGTH_SHORT).show();
             }
 

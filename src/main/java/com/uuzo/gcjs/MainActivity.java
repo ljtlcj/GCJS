@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
         QbSdk.initX5Environment(getApplicationContext(),new QbSdk.PreInitCallback(){
             @Override
             public void onViewInitFinished(boolean arg0) {
-                Log.d("MainActivity", "tbs_x5_onViewInitFinished is " +arg0);
+                Log.d("Main1Activity", "tbs_x5_onViewInitFinished is " +arg0);
             }
             @Override
             public void onCoreInitFinished() {
-                Log.d("MainActivity", "tbs_x5_onCoreInitFinished");
+                Log.d("Main1Activity", "tbs_x5_onCoreInitFinished");
             }
         });
 

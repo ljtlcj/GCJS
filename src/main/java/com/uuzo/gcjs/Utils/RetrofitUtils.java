@@ -97,6 +97,15 @@ public class RetrofitUtils {
         @POST("project/addOneProject")
         Call<ResponseBody> addOneProject(@PartMap Map<String, RequestBody> map, @Part List<MultipartBody.Part> parts);
 
+        //登陆
+        @Multipart
+        @POST("login/ceshilogin")
+        Call<ResponseBody> login(@PartMap Map<String, RequestBody> map, @Part List<MultipartBody.Part> parts);
+
+        //获取项目任务
+        @Multipart
+        @POST("apply/showApply")
+        Call<ResponseBody> getTask(@PartMap Map<String, RequestBody> map, @Part List<MultipartBody.Part> parts);
 
 //        //显示我安排的工作任务摘要
 //        @Multipart

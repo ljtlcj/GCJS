@@ -46,7 +46,8 @@
             </intent-filter>
         </activity>
 
-
+        <activity android:name=".View.Home.ApplyCommon.ApplyCommonActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
+        <activity android:name=".View.Main.Main1Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <activity android:name=".View.Project.ProjectManChoice.ProjectMan1Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <activity android:name=".View.Project.ProjectManChoice.ProjectMan2Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <activity android:name=".View.Project.ProjectManChoice.ProjectMan3Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
@@ -59,7 +60,7 @@
         <activity android:name=".View.Project.ProjectNewChoiceActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <!--WelcomeActivity-->
         <activity android:name=".View.Project.ProjectBigNewActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
-        <!--<activity android:name=".MainActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />-->
+        <!--<activity android:name=".Main1Activity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />-->
         <activity android:name=".View.Project.ProjectNewActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <activity android:name=".LoginActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />
         <activity android:name=".RegActivity" android:configChanges="orientation|keyboardHidden|navigation|screenSize" android:windowSoftInputMode="adjustResize|stateHidden" android:screenOrientation="portrait" />

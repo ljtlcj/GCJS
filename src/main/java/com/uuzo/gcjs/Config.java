@@ -17,6 +17,11 @@ import java.util.List;
 
 
 public class Config {
+    public static String Lwopen="";
+    public static String Luser_name="";
+    public static String Ljob="";
+    public static int Luserid = 0;
+    public static String Ltoken="";
 
     public static String APPType="GCJS";
 	public static String ServiceUrl="http://www.gcgl.online/";

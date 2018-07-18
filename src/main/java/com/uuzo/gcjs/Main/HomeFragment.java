@@ -1,5 +1,6 @@
 package com.uuzo.gcjs.Main;
 
+import android.content.Intent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -7,12 +8,13 @@ import android.widget.LinearLayout;
 import com.uuzo.gcjs.BaseTemplate.BaseLazyFragment;
 import com.uuzo.gcjs.Customview.WorkbenchContent;
 import com.uuzo.gcjs.R;
+import com.uuzo.gcjs.View.Home.ApplyCommon.ApplyCommonActivity;
 
 /**
  * Created by handsome on 2016/4/7.
  */
 public class HomeFragment extends BaseLazyFragment {
-    private WorkbenchContent iv_company_announcements;//公司公告
+    private WorkbenchContent iv_company_announcements;//通用申请
     private WorkbenchContent iv_working_task;//工作任务
     private WorkbenchContent iv_work_report;//工作汇报
     private WorkbenchContent iv_general_settings;//通用申请
@@ -33,6 +35,7 @@ public class HomeFragment extends BaseLazyFragment {
     private LinearLayout two;//不要的Ln_temp
     private LinearLayout three;//不要的
     private LinearLayout four;//不要的Ln_temp
+
     @Override
     public int getLayoutId() {
         return R.layout.fragment_home;
@@ -48,7 +51,7 @@ public class HomeFragment extends BaseLazyFragment {
         two.setVisibility(View.INVISIBLE);
         three.setVisibility(View.INVISIBLE);
         four.setVisibility(View.INVISIBLE);
-//        iv_company_announcements = findView(R.id.iv_company_announcements);
+        iv_company_announcements = findView(R.id.iv_company_announcements);
 //        iv_daily_check = findView(R.id.iv_daily_check);
 //        iv_working_task = findView(R.id.iv_working_task);
 //        iv_work_report = findView(R.id.iv_work_report);
@@ -78,7 +81,7 @@ public class HomeFragment extends BaseLazyFragment {
 //        iv_quality_inspection.setOnClickListener(this);
 //        tv_security_check.setOnClickListener(this);
 //        iv_progress_plan.setOnClickListener(this);
-//        iv_company_announcements.setOnClickListener(this);
+        iv_company_announcements.setOnClickListener(this);
 //        iv_work_report.setOnClickListener(this);
 //        iv_general_settings.setOnClickListener(this);
 //        iv_working_task.setOnClickListener(this);
@@ -93,8 +96,8 @@ public class HomeFragment extends BaseLazyFragment {
 
     @Override
     public void processClick(View v) {
-//        Intent i;
-//        switch (v.getId()){
+        Intent i;
+        switch (v.getId()) {
 ////            case R.id.tv_edit://登陆
 ////                i=new Intent(getActivity(), LoginActivity.class);
 ////                startActivity(i);
@@ -139,10 +142,10 @@ public class HomeFragment extends BaseLazyFragment {
 ////                i=new Intent(getActivity(),PlanProgressActivity.class);
 ////                startActivity(i);
 //                break;
-//            case R.id.iv_company_announcements:
-////                i=new Intent(getActivity(), AnnouncementsCompanyActivity.class);
-////                startActivity(i);
-//                break;
+            case R.id.iv_company_announcements:
+             i = new Intent(getActivity(), ApplyCommonActivity.class);
+                startActivity(i);
+                break;
 //            case R.id.iv_work_report:
 ////                i=new Intent(getActivity(), WorkReportActivity.class);
 ////                startActivity(i);
@@ -160,6 +163,6 @@ public class HomeFragment extends BaseLazyFragment {
 ////                startActivity(i);
 //            default:
 //                break;
-//        }
+        }
     }
 }

@@ -87,7 +87,7 @@
                             android:id="@+id/iv_company_announcements"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:wc_content="公司公告"
+                            app:wc_content="通用申请"
                             app:wc_image="@drawable/workbench_ic_company_announcements"
                             app:wc_new_notice="false" />
 
